@@ -6,8 +6,8 @@ import torch
 from torch import nn
 import sys
 
-from src.data.datamodule import DataLoaders
-from src.data.pred_dataset import *
+from PatchTST.src.data.datamodule import DataLoaders
+from PatchTST.src.data.pred_dataset import *
 
 DSETS = ['ettm1', 'ettm2', 'etth1', 'etth2', 'electricity',
          'traffic', 'illness', 'weather', 'exchange'
